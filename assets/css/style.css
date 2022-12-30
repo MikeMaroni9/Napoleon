@@ -58,15 +58,16 @@ footer {
     height: 100px;
     left: 0;
     bottom: 0;
-    text-align: center;
+    
     width: 100%;
 
     padding: 0;
     overflow: hidden;
     background-color: black;
-    text-align: center;
+    
     display: inline-block;
     color: white;
     padding: 10px 20px;
-    text-decoration: none;   
+    text-decoration: none;
+       
 }
