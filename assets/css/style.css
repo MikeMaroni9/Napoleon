@@ -2,7 +2,7 @@
 
 body { 
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     background-color: rgba(13, 11, 11, 0);
     color: rgb(12, 16, 12)
 }
@@ -49,4 +49,7 @@ h1 {
     background:url(../images/coronation.jpg) no-repeat;
     background-size: cover;
     
+}
+#large {
+    font-size: xx-large;
 }
