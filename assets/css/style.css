@@ -50,7 +50,7 @@ h1 {
 footer {
     position: fixed;
     height: 100px;
-    left: 0;
+    left: 0px;
     bottom: 0;
     
     width: 100%;
@@ -64,6 +64,11 @@ footer {
     padding: 10px 20px;
     text-decoration: none;
        
+}
+.footer {
+    margin-left: 80px;
+    margin-top: 10px;
+    color: tan;
 }
 /*Main background image*/
 .background { 
@@ -138,4 +143,14 @@ table, th, td {
     background-image: url(../images/nonhorse3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+/*Styling of the foooter element with Napoleons profile picture*/
+.center {
+    display: block;
+    width: 2%;
+    float: right;
+    margin-right: 42px;
+    margin-top: 0%;
+    
+
 }
