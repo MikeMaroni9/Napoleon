@@ -32,3 +32,21 @@ li a {
 }
 li a:hover {
     background-color:crimson;
+}
+
+/* headings and logo*/
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+#logo {
+    margin-left: 30px;
+}
+#background-image {
+    width: 100%;
+    height: 300px;
+    background:url(../images/coronation.jpg) no-repeat;
+    background-size: cover;
+    
+}
