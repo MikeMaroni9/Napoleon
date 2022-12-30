@@ -92,3 +92,13 @@ div p {
     font-weight: 500;
 
 }
+/* Achievment page table styling*/
+table {
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+}
+table, th, td {
+    border: 1px solid;
+    width: 30%;
+}
