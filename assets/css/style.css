@@ -104,14 +104,35 @@ div p {
 }
 /* Achievment page table styling*/
 table {
-    width: 75%;
+    margin: 200px 200px;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
+    clear: both;
+    
 }
+div img {
+    float: right;
+    width: 13%;
+    margin: 0 180px 0 0;
+}
+
 table, th, td {
     border: 1px solid;
     width: 30%;
     letter-spacing: 2px;
+}
+div h2 {
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 5px;    
+}
+li {
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 /*Early Life Styling*/
