@@ -10,34 +10,60 @@
     <meta name="keywords"
         content="napoleon, bonaparte, france, hystory, hystorical figure, first consul, emperor, leader">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/1739fd9eef.js" crossorigin="anonymous"></script>
     <title>Newsletter</title>
 </head>
 
-<body>
+<body class="background">
     <header>
         <a href="index.html">
-            <h1>Napoleon Bonaparte</h1>
+            <h1 id="logo">Napoleon Bonaparte</h1>
+            
         </a>
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
                 </li>
                 <li>
-                    <a href="earlylife.html">Early Life</a>
+                    <a href="earlylife.html">Early Life <i class="fa-solid fa-child"></i></a>
                 </li>
                 <li>
-                    <a href="achievements.html">Achievements</a>
+                    <a href="achievements.html">Achievements <i class="fa-solid fa-trophy"></i></a>
                 </li>
                 <li>
-                    <a href="newsletter.html">Newsletter</a>
+                    <a href="newsletter.html">Newsletter <i class="fa-solid fa-newspaper"></i></a>
                 </li>
             </ul>
         </nav>
     </header>
-    
-    <h1>Newsletter</h1>
+    <section>
+        <form class="newsletter-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Join, for weekly Napoloen newsletter straight to your inbox! <i class="fa-solid fa-radio"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <input class="join-button"  type="submit" value="Yes,Please!"/>
+        </form>
+ </section> 
 
+
+    <footer>
+        <span>More information about Napoleon:</span>
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Napoleon" target="_blank" rel="noopener">Wikipedia</a>
+            </li>
+            <li>
+                <a href="https://www.history.com/topics/france/napoleon" target="_blank" rel="noopener">History</a>
+            </li>
+            <li>
+                <a href="https://www.britannica.com/biography/Napoleon-I" target="_blank" rel="noopener">Britannica</a>
+            </li>
+        </ul>
+    </footer>
 </body>
-
 </html>
