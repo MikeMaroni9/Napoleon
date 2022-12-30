@@ -47,6 +47,10 @@ h1 {
 #large {
     font-size: xx-large;
 }
+
+
+/*Footer Section Styling*/
+
 footer {
     position: fixed;
     height: 100px;
@@ -77,6 +81,7 @@ footer {
     background-size: cover;
 
 }
+/*Audio Visuals*/
 .audio {
     display: flex;
     justify-content: center;
@@ -108,8 +113,8 @@ table, th, td {
     width: 30%;
     letter-spacing: 2px;
 }
-/*Early Life Styling*/
 
+/*Early Life Styling*/
 #headstyle {
     height: 40px; 
     width: auto;
@@ -120,15 +125,16 @@ table, th, td {
 }
 #left-side {
     width: 45%;
-    padding: 20px;
+    padding: 10px;
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
+    
 }
 #right-side {
     width: 45%;
-    padding: 20px;
+    padding: 10px;
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 /* Newsletter form styling*/
 .newsletter-form {
@@ -151,6 +157,12 @@ table, th, td {
     float: right;
     margin-right: 42px;
     margin-top: 0%;
-    
+}
 
+.buono {
+    margin-top: 870px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 21px;
 }
