@@ -4,5 +4,31 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
     background-color: rgba(13, 11, 11, 0);
-    color: rgb(0, 0, 0)
+    color: rgb(12, 16, 12)
 }
+/*Navigation bar*/
+nav {
+    max-width: none;
+    margin: 0 auto;
+    
+}
+nav ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+li {
+    float: left;
+    list-style-type:none;
+    
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;   
+}
+li a:hover {
+    background-color:crimson;
