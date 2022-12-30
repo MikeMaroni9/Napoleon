@@ -103,3 +103,25 @@ table, th, td {
     width: 30%;
     letter-spacing: 2px;
 }
+/*Early Life Styling*/
+
+#early-life {
+    height: 40px; 
+    width: auto;
+    margin-left: 50px;
+    font-size: 39px;
+    margin-bottom: 5px;
+
+}
+#left-side {
+    width: 45%;
+    padding: 20px;
+    float: left;
+    margin-left: 20px;
+}
+#right-side {
+    width: 45%;
+    padding: 20px;
+    float: right;
+    margin-right: 20px;
+}
