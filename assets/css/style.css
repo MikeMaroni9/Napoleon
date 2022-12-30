@@ -144,6 +144,13 @@ li {
     margin-bottom: 35px;
 
 }
+h1 img {
+    width: 1.5%;
+    float: right;
+    margin-left: 20px;
+    margin-top: 2px;
+    position:absolute;
+}
 #left-side {
     width: 45%;
     padding: 10px;
