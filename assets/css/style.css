@@ -4,7 +4,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color: rgba(13, 11, 11, 0);
-    color: rgb(12, 16, 12)
+    color: tan;
 }
 /*Navigation bar*/
 nav {
@@ -31,20 +31,19 @@ li a {
     text-decoration: none;   
 }
 li a:hover {
-    background-color:crimson;
+    background-color:tan;
 }
 
 /* headings and logo*/
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    color: black;
+    color: tan;
 }
 #logo {
     margin-left: 30px;
 }
 
-}
 #large {
     font-size: xx-large;
 }
@@ -66,10 +65,15 @@ footer {
     text-decoration: none;
        
 }
-/*Newsletter Page*/
+/*Main background image*/
 .background { 
-    background-image: url(../images/nonhorse3.jpg);
+    background-image: url(../images/backgroundnew.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
