@@ -105,12 +105,12 @@ table, th, td {
 }
 /*Early Life Styling*/
 
-#early-life {
+#headstyle {
     height: 40px; 
     width: auto;
     margin-left: 50px;
     font-size: 39px;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
 
 }
 #left-side {
