@@ -101,4 +101,5 @@ table {
 table, th, td {
     border: 1px solid;
     width: 30%;
+    letter-spacing: 2px;
 }
