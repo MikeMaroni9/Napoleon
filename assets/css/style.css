@@ -174,8 +174,7 @@ h1 img {
 /* Newsletter form styling*/
 .newsletter-form {
     max-width: 200px;
-    position: absolute;
-    left: 300px;
+    left: 1800px;
     padding: 66px;
     font-size: 23px; 
   
@@ -220,6 +219,12 @@ h1 img {
     }
     h1 img {
         width: 3%;
+    }
+    #newsletter-form {
+        position: fixed;
+        margin-left: 10px;
+        width: fit-content;
+        
     }
 }
     
