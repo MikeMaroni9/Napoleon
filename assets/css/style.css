@@ -243,7 +243,7 @@ h3 img {
 @media screen and (max-width: 950px) {
     nav ul li {
         clear:left;
-        float: center;
+        float: none;
         text-align: center;
         width: 75%;
     }
