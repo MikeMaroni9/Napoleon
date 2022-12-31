@@ -48,9 +48,13 @@ For those who would like to know a little bit more about Napoleon step by step I
     <ul>Currently I am trying to figure out why my pictures and audio files that I have added to library don't work in my freshly published page.</ul>
     <ul>all files have been added to assets folder and worked through http.server but when I pushed everyhing to the github and published, they don't want to read them and show broken links</ul>
     <ul>update 4:56 am, I found the reason why the pictures aren't showing. They were added as /assets/images/blala but I should have used assets/images/blabla</ul>
+    <ul>I have used the screen sizes of 1200px and 950px to adjust the webpage to these platforms. It's not ideal but it work. Margins, widths etc have been adjusted.</ul>
 
 <h2>Validator Testing<h2>
     <ul>I have used both : HTML and CSS validator. There were a few bugs to start with but all of them have been solved and validators reported that there are not any issues.</ul>
+    <ul>Lighthouse Test</ul>
+
+<img src="https://serving.photos.photobox.com/59277776bf86bd62e2fcec030da621aae46073f278bcf922557ba4338b6a9a8e0f3884d1.jpg">
 
 <h2>Unfixed Bugs</h2>
     <ul>As stated previously there are broken links on the published pages. I don't know why. I have pushed all the files, all assets are updated and can be viewed through GitHub.</ul>
