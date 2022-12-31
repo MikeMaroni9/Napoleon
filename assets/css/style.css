@@ -236,4 +236,12 @@ h1 img {
         width: 75%;
     }
 }
-    
+/*950px Wide and Under*/
+@media screen and (max-width: 950px) {
+    nav ul li {
+        clear:left;
+        float: center;
+        text-align: center;
+        width: 75%;
+    }
+}
