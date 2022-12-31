@@ -221,10 +221,19 @@ h1 img {
         width: 3%;
     }
     #newsletter-form {
-        position: fixed;
         margin-left: 10px;
-        width: fit-content;
-        
+    }
+    #achieve {
+        text-align: center;
+    }
+    div img {
+        width: 70%;
+    }
+    #title-table {
+        width: 90%;
+    }
+    table {
+        width: 75%;
     }
 }
     
