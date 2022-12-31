@@ -123,8 +123,7 @@ table {
     width: 100%;
     text-align: center;
     border-radius: 10px;
-    clear: both;
-    
+    clear: both; 
 }
 #img {
     float: right;
@@ -137,17 +136,12 @@ table, th, td {
     width: 30%;
     letter-spacing: 2px;
 }
-div h2 {
-    font-size: 40px;
-    margin-left: 60px;
-    margin-top: 40px;
-    margin-bottom: 5px;    
-}
-li {
+.style {
     margin-left: 100px;
-    font-size: 20px;
-    margin-bottom: 10px;
     color: white;
+}
+h3 {
+    margin-left: 80px;
 }
 
 /*Early Life Styling*/
