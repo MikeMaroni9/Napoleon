@@ -1,108 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Initial Readme file... its 10:18 am on 30/12/2022 and I have about 24h to finish this project that I just started. wish me luck.
+...
+It's 3 a.m. and I have less then 9 hours to submit my work, I am at the point where I don't think I can do any better at the moment. Tried to write as clean as I could and show as many aspects of what I have learned so far. The more I write and think the better I get and definitely know a lot more than I did last morning when I started this project. I really hope that I will pass ! My brain is shutting down and I hope I don't make a stupid mistake and get failed on technicality :/
 
-Welcome MikeMaroni9,
+#My first website project ! 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h1>Napoleon Bonoparte</h1>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<p>This website will take you into a journey about one of the most famous historic figures - Napoleon Bonaparte. Web page will provide you with the basic information about his early life and note worthy accomplishments. 
+Added are audio visual elements to take you through his biggest accomplishments and victories. Don't forget to Sign Up for a weekly newsletter to receive interesting facts about his life and accomplishments weekly straight into your mailbox.</p>
 
-## Gitpod Reminders
+<img src="https://serving.photos.photobox.com/422816535c9a54977a8d2e8b79940ce86e9953609f16417bbd691e331e18d631fc7497a8.jpg">
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h2>Features<h2>
+    <ul>Heading is split between Main clickable banner that will take you back to home page and fully functional navigation bar.</ul>
+    <ul>Navigation will take you through 4 custom pages that will take you to adventrour of Napoleons life and gives you even a chance to sign up for a personalized sign up page.</ul>
+    <ul>In main index.html page you will find audio files and attached video file that will provide you with more immersive web page experience</ul>
+    <ul>As well as his portrait and most note worthy facts that you have to know about Napoleon</ul>
+    <ul>Footer of the page is set up in such a way that you can easily navigate to resource rich Wikipedia, history and Britannica sites.</ul>
+    <ul>Early life section is designed for those that would like to look into Napoleons childhood</ul>
+    <ul>While Achievements page will take you through his greatest accomplishments and will present you with easy to view table about his most notable titles</ul>
+    <ul>For those who would like to know a little bit more about Napoleon step by step I have created an Newsletter page where you can sign up for a weekly "Napoleony" newsletter.</ul>
 
-`python3 -m http.server`
+<h2>Testing<h2>
+    <ul>I go through multiple stages of testing and I check the code as soon as I am finished writing it and fixing the bugs straight away.</ul>
+    <ul>Currently I am trying to figure out why my pictures and audio files that I have added to library don't work in my freshly published page.</ul>
+    <ul>all files have been added to assets folder and worked through http.server but when I pushed everyhing to the github and published, they don't want to read them and show broken links</ul>
+    <ul>I think that is the limitation of the github, I tried to reach out on slack, but it's 4 a.m. and normal people are sleeping</ul>
 
-A blue button should appear to click: _Make Public_,
+<h2>Validator Testing<h2>
+    <ul>I have used both : HTML and CSS validator. There were a few bugs to start with but all of them have been solved and validators reported that there are not any issues.</ul>
 
-Another blue button should appear to click: _Open Browser_.
+<h2>Unfixed Bugs</h2>
+    <ul>As stated previously there are broken links on the published pages. I don't know why. I have pushed all the files, all assets are updated and can be viewed through GitHub.</ul>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<h2>Deployment<h2>
+    <ul>I have commited all the files and pushed them on to the repository. Have navigated through the GitHub pages and through the settings have published the pages.</ul>
+    <ul>This is the site : https://mikemaroni9.github.io/Napoleon/index.html </ul>
 
-A blue button should appear to click: _Make Public_,
+<h2>Credits</h2>
+    <ul>Video media is linked from YouTube. Audio media was downloaded from youtube, sound exctraced and uploaded to asset folder</ul>
+    <ul>Picture elements have been aquired through google search. Files have been download, some have been edited with MS.Paint</ul>
+    <ul>Icons for the navigation toolbar has been taken from : https://fontawesome.com/ </ul>
+    <ul>Code inspiration have been taken from code institute learning tools. Some things have been implemented from "Love Runnin" scenario.</ul>
+    <ul>Bits and pieces did come from search engine, but mainly I searched how exactly to do something and then tried to add my twist to it. </ul>
+    
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
