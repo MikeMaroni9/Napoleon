@@ -1,10 +1,3 @@
-Initial Readme file... its 10:18 am on 30/12/2022 and I have about 24h to finish this project that I just started. wish me luck.
-...
-It's 3 a.m. and I have less then 9 hours to submit my work, I am at the point where I don't think I can do any better at the moment. Tried to write as clean as I could and show as many aspects of what I have learned so far. The more I write and think the better I get and definitely know a lot more than I did last morning when I started this project. I really hope that I will pass ! My brain is shutting down and I hope I don't make a stupid mistake and get failed on technicality :/
-05:17 am 31/12/2022 I think I am finished ! :) It might not be as fine polished as I or you would like,just going to go over few things, push it to git hub and submit it ! 
-
-#My first website project ! 
-
 <h1>Napoleon Bonoparte</h1>
 
 <h2>This website will take you into a journey about one of the most famous historic figures - Napoleon Bonaparte. Web page will provide you with the basic information about his early life and note worthy accomplishments. 
