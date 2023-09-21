@@ -19,8 +19,8 @@ p {
 nav {
     max-width: none;
     margin: 0 auto;
-    
 }
+
 nav ul {
     padding: 0;
     overflow: hidden;
@@ -34,13 +34,10 @@ li {
 }
 li a {
     display: inline-block;
-    color: white;
+    color: tan;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;   
-}
-li a:hover {
-    background-color:tan;
 }
 
 /* headings and logo*/
