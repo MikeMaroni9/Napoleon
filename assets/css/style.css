@@ -95,12 +95,15 @@ footer {
 }
 /*Audio Visuals*/
 .audio {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 .index-video {
+    margin-top: 50px;
     text-align: center;
+    align-items: center;
 }
 img {
     width: 300px;
@@ -148,6 +151,7 @@ h3 {
     margin-left: 50px;
     font-size: 39px;
     margin-bottom: 35px;
+    margin-top: 50px;
 
 }
 h3 img {
